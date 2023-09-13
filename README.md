@@ -2,9 +2,12 @@
 
 - Breve introdução ao movimento de Software Livre
     + Projeto GNU (GNU's Not UNIX)
-    + Richard Stallman
+        - Richard Stallman
+        - O surgimento
+        - As 4 liberdades
+        - 
     + binutils
-    + libc
+    + glibc
     + gcc
     + Kernel Linux
     + Linus Torvalds
@@ -15,12 +18,19 @@
     + O projeto Debian
     + ...
 
-- LIBC
+- GLIBC
 
 ### Dia 1
 - Ferramentas
     + Vim
-    + GCC
+    + GCC (Gnu Compiler Conection)
+        - ELF (Executable and Linkable Format)
+        - Preprocessor (-E)
+        - Compiler (-S -masm=intel -Og)
+        - Assembler (Object Code)
+            + objdump -D
+        - Linker (Executable)
+    + TMUX
     + Demais ferramentas do GNU/Linux
 
 - Conceitos básicos da linguagem C
@@ -42,6 +52,8 @@
 ### Dia 2
 - Ponteiros
 - Alocação Dinâmica
+- Biblioteca Estática/Dinâmica
+    + 
 - valgrind
 - GDB
 
@@ -51,6 +63,10 @@
     + Navegador
     + Editor
     + ...
+- Funcionalidades do GNU/Linux
+    + Variáveis de Ambiente
+    + "everything can have a fd"
+
 - make
 - git
 - Projetos em CLI
