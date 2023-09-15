@@ -35,8 +35,15 @@
 
 - Conceitos básicos da linguagem C
     + Variáveis
+        - int
+        - char
+        - float
+        - Modificadores de Acesso
+        - struct
+        - union
     + Condicionais
     + Loops
+    + Operadores bit-a-bit
 
 - Funções
     + Como criar funções
@@ -53,9 +60,32 @@
 - Ponteiros
 - Alocação Dinâmica
 - Biblioteca Estática/Dinâmica
-    + 
+    + ...
 - valgrind
-- GDB
+- GDB (GNU Debugger)
+    + quit
+    + "-g" no GCC
+    + run
+    + list [start,end]
+    + start
+    + step
+    + next
+    + info [param]
+        - locals
+        - args
+        - address [param]
+        - source
+    + print [expr]
+    + x [expr]
+    + break [param]
+        - break 20 if foo == 5
+    + continue
+    + where
+    + display [var]
+        - undisplay [id]
+    + watch [expr]
+    + finish
+    + -ex
 
 ### Dia 3
 - Organizando o sistema
